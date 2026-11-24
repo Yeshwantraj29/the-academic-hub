@@ -1,0 +1,28 @@
+STARK-X LAB — RESEARCH PORTFOLIO UPDATE
+Prepared 24 November 2026
+
+This is an UPDATE package for your existing GitHub Pages repository, not a new theme.
+Repository: Yeshwantraj29/the-academic-hub
+Live site: https://yeshwantraj29.github.io/the-academic-hub/
+
+1. Extract this ZIP.
+2. Open your existing repository on GitHub. Download a backup using Code > Download ZIP (or create a separate branch for testing).
+3. Select Add file > Upload files. Upload the six files below into the ROOT of the repository, not a subfolder:
+   index.html
+   starkx-research.css
+   starkx-research.js
+   raj-headshot.jpg
+   raj-academic.jpg
+   raj-beyond-academia.jpg
+4. Keep the existing styles.css, script.js, starkx-logo.png and README.md. Do not delete them. The original theme and animation rules depend on these files.
+5. Confirm the manuscript titles, public journal names and statuses, author consent/journal policies, and the selected two AI platform families before publishing. Titles of research in development may be provisional. Update the dated portfolio note if you change the entries. Confirm publication metadata and historical quartiles separately; existing publication entries have been retained as provided, not re-verified.
+6. For a local preview, extract your original GitHub repository ZIP to a folder, copy the six update files into that same folder (replace index.html and raj-headshot.jpg when prompted), and open index.html in a browser. If fonts are blocked offline, fallback fonts will be used. For a live update, commit the six files to the branch already configured in Settings > Pages (main / root in your screenshot). Wait for GitHub Pages to report successful deployment and refresh the live page.
+
+HOW TO MAINTAIN
+- index.html: update the Working Papers section (#working-papers), methods, publications, AI portfolio and academic timeline. Each paper is an article with class sx-paper and data-stage (submitted, review, writing, data). The filters and featured research stream count use these entries. The submitted filter includes papers in review.
+- Dates are last confirmed statuses, not automatic editorial-system tracking. Use only verified statuses. A target journal is not a submission.
+- The two journal statuses included are: Sustainable Cities and Society (under review as of 18 Oct 2026); International Journal of Human–Computer Interaction (editorial processing as of 20 Nov 2026). The other streams have draft/revision/data labels. Target venues are marked not submitted.
+- The AI section is informational only. No application links, endpoints, prompts, private source code, secrets, tracking links, or unpublished results are included. Hiding links is not access control: actual AI applications should have their own authorization checks.
+- Photos are from the original supplied images, with size optimization and metadata stripped. No generated or retouched facial features.
+- starkx-research.css: additional styles only, using your original colors and font families. starkx-research.js: search, stage filtering, counter animation. Keep the original styles.css and script.js for the existing visual effects.
+- This package has not modified or published the live repository.
